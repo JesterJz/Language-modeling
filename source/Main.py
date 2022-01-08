@@ -54,9 +54,9 @@ def index():
 
 if __name__ == "__main__":
     # Load the model and tokenizer
-    model = load_model('./model/next_word.h5')
+    model = load_model('../model/next_word.h5')
     print("Model: OK")
-    with open('./model/tokenizer.pkl', 'rb') as f:
+    with open('../model/tokenizer.pkl', 'rb') as f:
         tokenizer = pickle.load(f)
     print("Tokenizer: OK")
     print(len(tokenizer.word_index))

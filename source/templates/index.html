@@ -15,7 +15,7 @@
         <div class="row d-flex justify-content-center">
             <div class="col-md-10">
                 <div class="card p-3 py-4">
-                    <form action="/" method="POST">
+                    <form action="/" method="POST" style="margin-left: 100px;">
                         <h5>Number of Prediction: </h5>
                         <div class="row g-3 mt-2">
                             <div class="col-md-3">
@@ -26,7 +26,7 @@
                                 </select> 
                             </div>
                             <div class="col-md-6"> <input type="text" name="search" class="form-control" value="{{request.form.search}}" placeholder="type word...."> </div>
-                            <div class="col-md-3"> <button class="btn btn-secondary btn-block">Predict...</button> </div>
+                            <div class="col-md-3"> <button class="btn btn-primary btn-block">Predict...</button> </div>
                         </div>
                         <div style="margin-left: 25%; margin-top: 20px;">
                             {%for page in pages%}
