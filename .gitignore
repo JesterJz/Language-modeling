@@ -1,4 +1,4 @@
-/data
 .gitmodules
-/model
+/model/*.h5
 /source_test
+/source/py/
