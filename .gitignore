@@ -2,3 +2,5 @@
 /model/*.h5
 /source_test
 /source/py/
+document/
+data/*.txt
